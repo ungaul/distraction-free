@@ -57,8 +57,25 @@ Before starting, make sure to **uninstall the stock apps** that you are replacin
 2. **Download the Twitter APK**
    - Use ReVanced Manager to patch the Twitter APK from **APKMirror**.
 
-3. **Patch and customization**
-   - Apply the patch, then disable distracting features through ReVanced settings.
+3. **Configure alternative sources with Piko**
+   ```markdown
+   - Once you’ve installed ReVanced Manager, open it.
+   - Enable the toggle to allow installation from external apps in your device’s settings.
+   - After installation is complete, open ReVanced Manager.
+   - Go to ReVanced Manager **Settings**.
+   - Enable the **Use alternative sources** toggle.
+   - Tap on **Alternative sources**.
+   - Fill in the following fields:
+     - **Patches organization**: enter **crimera**.
+     - **Patches source**: enter **piko**.
+     - **Integrations organization**: enter **crimera**.
+   - Tap **OK** and restart ReVanced Manager to apply the changes.
+
+4. **Patch and customization**
+   - Select the Twitter APK from **Storage**, apply the patch, and disable distracting features through the ReVanced settings.
+
+5. **Reset to default settings**
+   - After installation and customization, go back to the **Settings** in ReVanced Manager and disable the **Use alternative sources** toggle to return to the default sources.
 
 🎉 **Twitter ReVanced is installed without distractions!**
 
@@ -127,3 +144,4 @@ If you find TikTok distracting but want to continue using it without ads and oth
 ## Conclusion
 
 With solutions for **Windows** and **Android**, you can disable distracting features and block access to unwanted content while continuing to use your favorite apps. Whether by modifying the `hosts` file, using extensions like **Unhook**, or patching your apps with **ReVanced**, these tools help you take control of your attention and productivity.
+
